@@ -17,3 +17,15 @@
 ```shell
 docker-compose up -d
 ```
+
+6. Execute seed
+
+```
+/api/seed
+```
+
+7. Run server
+
+```bash
+pnpm start:dev
+```
