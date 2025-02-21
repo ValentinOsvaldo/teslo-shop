@@ -11,7 +11,7 @@ import { validate as isUUID } from 'uuid';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
 import { Product } from './entities/product.entity';
-import { PaginationDto } from 'src/common/pagination.dto';
+import { PaginationDto } from 'src/common/dtos/pagination.dto';
 import { ProductImage } from './entities';
 import { User } from 'src/auth/entities/user.entity';
 
